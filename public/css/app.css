@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap");
+/* @charset "UTF-8"; */
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -10,7 +10,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: sans-serif;
+  font-family: "Fira Sans", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
