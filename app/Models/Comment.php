@@ -15,6 +15,7 @@ class Comment extends Model
     ];
 
     protected static function boot()
+    
     {
         parent::boot();
 

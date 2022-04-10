@@ -8,6 +8,7 @@ use App\Models\Tag;
 use App\User;
 use Illuminate\Database\Eloquent\Model;
 
+
 class Post extends Model
 {
     protected $fillable = [
@@ -19,6 +20,7 @@ class Post extends Model
     ];
 
     protected static function boot()
+
     {
         parent::boot();
 

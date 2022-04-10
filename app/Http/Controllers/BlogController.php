@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class BlogController extends Controller
 {
     public function index(Request $request)
+    
     {
         $posts = Post::when($request->search, function ($query) use ($request) {
             $search = $request->search;

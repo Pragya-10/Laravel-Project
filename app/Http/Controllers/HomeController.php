@@ -9,6 +9,7 @@ use App\Models\Tag;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
+
 {
     /**
      * Create a new controller instance.
